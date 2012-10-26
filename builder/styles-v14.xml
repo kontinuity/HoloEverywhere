@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <define file="base.xml" />
+  <!-- Dark themes -->
+  <style name="Holo.Theme" parent="android:Theme.Holo">
+    <include name="BaseDark" />
+  </style>
+  <style name="Holo.Theme.Sherlock" parent="Holo.Theme" />
+  <!-- Light themes -->
+  <style name="Holo.Theme.Light" parent="android:Theme.Holo.Light">
+    <include name="BaseLight" />
+  </style>
+  <style name="Holo.Theme.Light.DarkActionBar" parent="android:Theme.Holo.Light.DarkActionBar">
+    <include name="BaseLight" />
+  </style>
+  <style name="Holo.Theme.Sherlock.Light" parent="Holo.Theme.Light" />
+  <style name="Holo.Theme.Sherlock.Light.DarkActionBar" parent="Holo.Theme.Light.DarkActionBar" />
+</resources>
